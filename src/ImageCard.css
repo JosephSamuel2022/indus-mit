@@ -1,0 +1,35 @@
+/* ImageCard.css */
+.image-card {
+	background-color: #33373d;
+	border-radius: 15px;
+	padding: 20px;
+	overflow: hidden;
+	width: 480px; /* You can adjust the width as needed */
+	margin: 20px; /* Add margin for spacing */
+}
+
+.image-container {
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+}
+
+.text-container {
+	margin-top: 10px;
+}
+
+.text-container p {
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* ImageCard.css */
+.number-image {
+	margin-right: 5px; /* Add space between images */
+}

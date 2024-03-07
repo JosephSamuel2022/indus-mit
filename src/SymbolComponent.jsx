@@ -8,16 +8,14 @@ const SymbolComponent = ({ value, onChange }) => {
 
 	useEffect(() => {
 		setNumber(value || "");
-		// if (number != "") setShowImage(true);
+		setShowImage(Boolean(value));
 	}, [value]);
 
 	const handleInputChange = (event) => {
-		setNumber(event.target.value);
-	};
-
-	const handleKeyUp = (event) => {
-		setShowImage(true);
-		onChange(number); // Pass the value back to the parent component
+		const newValue = event.target.value;
+		setNumber(newValue);
+		setShowImage(Boolean(newValue)); // Update showImage based on whether the input has a value
+		onChange(newValue);
 	};
 
 	return (
@@ -26,13 +24,12 @@ const SymbolComponent = ({ value, onChange }) => {
 				type='text'
 				value={number}
 				onChange={handleInputChange}
-				onKeyUp={handleKeyUp}
 				className='number-input'
 				placeholder='None'
 			/>
 			{showImage && (
 				<img
-					src={`./images/${number}.png`}
+					src={`./images/${number}.jpg`}
 					alt={`${number}.png`}
 					className='image'
 					style={{ maxWidth: "100%", maxHeight: "100%" }}

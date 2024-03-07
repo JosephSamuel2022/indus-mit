@@ -1,0 +1,11 @@
+/* Keerthi.css */
+.keerthi {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px; /* Adjust the padding between rows */
+}

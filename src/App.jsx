@@ -6,11 +6,12 @@ import { Route, Routes } from "react-router-dom";
 import SymbolRow from "./SymbolRow";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Dashboard from "./Dashboard";
 function App() {
 	return (
 		<>
 			<Routes>
-				<Route path='/' element={<SymbolRow />}></Route>
+				<Route path='/' element={<Dashboard />}></Route>
 			</Routes>
 			<ToastContainer />
 		</>

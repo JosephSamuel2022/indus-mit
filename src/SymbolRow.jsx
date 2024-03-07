@@ -27,26 +27,29 @@ const SymbolRow = () => {
 		// Any side effect code you want to run when filledList changes
 	}, [filledList]);
 
+	const [dataArray, setDataArray] = useState([]);
+	const [currentArrayIndex, setCurrentArrayIndex] = useState(0);
+
 	const handleFillNullValues = async () => {
 		try {
 			const values = filledList.map((item) => {
-				if (item === undefined) {
+				if (item === undefined || item == "") {
 					console.log("None");
 					return "None";
 				} else {
 					console.log(item);
-					return item;
+					return item.toString();
 				}
 			});
 			setFilledList(values);
-			const response = await axios.post("http://localhost:5000/fill", {
+			const response = await axios.post("https://indus-mit.onrender.com/fill", {
 				values,
 			});
-			const updatedFilledList = response.data.result.map((item) =>
+			const updatedFilledList = response.data.result[0].map((item) =>
 				String(item)
 			);
-			setFilledList(updatedFilledList); // Assuming the response contains the filled values
-			console.log(updatedFilledList);
+			setDataArray(response.data.result);
+			setFilledList(updatedFilledList);
 			toast.success("Filled Null Values based on N Gram Analysis");
 		} catch (error) {
 			console.error("Error filling null values:", error);
@@ -60,6 +63,11 @@ const SymbolRow = () => {
 		setFilledList(newFilledList);
 	};
 
+	const handleNextSequence = () => {
+		const nextIndex = (currentArrayIndex + 1) % dataArray.length;
+		setFilledList(dataArray[nextIndex]);
+		setCurrentArrayIndex(nextIndex);
+	};
 	return (
 		<div className='symbol-row-container'>
 			<div className='symbol-row'>
@@ -84,6 +92,9 @@ const SymbolRow = () => {
 			</div>
 			<button className='fill-button' onClick={handleFillNullValues}>
 				Fill Null Values
+			</button>
+			<button className='next-sequence-button' onClick={handleNextSequence}>
+				Next Sequence
 			</button>
 		</div>
 	);

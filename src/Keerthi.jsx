@@ -5,6 +5,7 @@ import "./Keerthi.css";
 const Keerthi = () => {
 	return (
 		<div className='keerthi'>
+			<h2 className='heading'>Network Analysis</h2>
 			<div className='row'>
 				<ImageCard
 					imageName='1.jpg'

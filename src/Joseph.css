@@ -1,0 +1,22 @@
+/* Joseph.css */
+.joseph-container {
+	padding: 20px;
+}
+
+.image-card-container {
+	display: flex;
+	margin: 20px;
+}
+
+.running-note-container {
+	overflow: hidden;
+}
+
+.running-note {
+	white-space: nowrap;
+	color: #04bade;
+	margin: 20px;
+}
+.heading {
+	color: #04bade;
+}

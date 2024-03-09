@@ -6,7 +6,7 @@ import "./Dashboard.css"; // Import your CSS file with animations
 import SymbolRow from "./SymbolRow";
 import Keerthi from "./Keerthi";
 import Kishor from "./Kishor";
-
+import Joseph from "./Joseph";
 const Dashboard = () => {
 	const [isOpen, setIsOpen] = useState(true);
 	const [selectedItem, setSelectedItem] = useState("default");
@@ -54,7 +54,7 @@ const Dashboard = () => {
 				<FontAwesomeIcon icon={faBars} />
 			</div>
 			{selectedItem === "item1" && <Keerthi />}
-			{selectedItem === "item2" && <SymbolRow />}
+			{selectedItem === "item2" && <Joseph />}
 			{selectedItem === "item3" && <Kishor />}
 		</>
 	);

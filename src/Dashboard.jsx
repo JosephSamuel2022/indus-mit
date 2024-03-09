@@ -5,6 +5,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import "./Dashboard.css"; // Import your CSS file with animations
 import SymbolRow from "./SymbolRow";
 import Keerthi from "./Keerthi";
+import Kishor from "./Kishor";
 
 const Dashboard = () => {
 	const [isOpen, setIsOpen] = useState(true);
@@ -54,13 +55,9 @@ const Dashboard = () => {
 			</div>
 			{selectedItem === "item1" && <Keerthi />}
 			{selectedItem === "item2" && <SymbolRow />}
-			{selectedItem === "item3" && <Component1 />}
+			{selectedItem === "item3" && <Kishor />}
 		</>
 	);
-};
-
-const Component1 = () => {
-	return <div>Hi Kishor</div>;
 };
 
 export default Dashboard;

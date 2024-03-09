@@ -1,7 +1,8 @@
 /* Table.css */
 .table {
-	width: 100%;
+	width: 90%;
 	border-collapse: collapse; /* Merge cell borders */
+	margin-left: 40px;
 }
 
 .table th,

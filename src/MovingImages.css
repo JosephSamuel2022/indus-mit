@@ -1,0 +1,42 @@
+.moving-images-container {
+	position: relative;
+	width: 100%;
+	max-width: 600px; /* Adjust the maximum width as needed */
+	margin: 0 auto;
+}
+
+.arrow-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: none;
+	border: none;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.arrow-button:focus {
+	outline: none;
+}
+
+.arrow-button.left {
+	left: 0;
+}
+
+.arrow-button.right {
+	right: 0;
+}
+
+.symbols-heading {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #04bade;
+}
+
+.note {
+	text-align: center;
+	margin-top: 20px;
+	font-style: italic;
+	color: #666;
+}

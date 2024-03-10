@@ -2,6 +2,8 @@ import React from "react";
 import ImageCardk from "./ImageCardk";
 import SymbolRow from "./SymbolRow";
 import "./Joseph.css";
+import "./MovingImages";
+import MovingImages from "./MovingImages";
 
 const Joseph = () => {
 	return (
@@ -25,6 +27,7 @@ const Joseph = () => {
 				</marquee>
 			</div>
 			<SymbolRow />
+			<MovingImages />
 		</div>
 	);
 };

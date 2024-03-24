@@ -1,8 +1,10 @@
+.start {
+	margin-top: 60px;
+}
 .kishor {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin: 20px;
 }
 
 .tall-image {

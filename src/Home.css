@@ -1,0 +1,23 @@
+.home-container {
+	margin-top: 40px;
+	max-width: 800px;
+
+	padding: 20px;
+}
+
+.title {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #04bade;
+}
+
+.content {
+	font-size: 18px;
+	line-height: 1.6;
+	color: white;
+}
+
+.content p {
+	margin-bottom: 20px;
+}

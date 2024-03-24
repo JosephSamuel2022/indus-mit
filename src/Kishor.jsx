@@ -5,7 +5,7 @@ import Table from "./Table";
 
 const Kishor = () => {
 	return (
-		<div>
+		<div className='start'>
 			<h2 className='heading'>Associate Rule Mining</h2>
 			<div className='kishor'>
 				<div className='tall-image'>

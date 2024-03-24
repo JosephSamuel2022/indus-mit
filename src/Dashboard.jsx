@@ -7,9 +7,10 @@ import SymbolRow from "./SymbolRow";
 import Keerthi from "./Keerthi";
 import Kishor from "./Kishor";
 import Joseph from "./Joseph";
+import Home from "./Home";
 const Dashboard = () => {
 	const [isOpen, setIsOpen] = useState(true);
-	const [selectedItem, setSelectedItem] = useState("default");
+	const [selectedItem, setSelectedItem] = useState("item0");
 
 	const toggleDashboard = () => {
 		setIsOpen(!isOpen);
@@ -26,6 +27,13 @@ const Dashboard = () => {
 			<div className={`dashboard ${isOpen ? "open" : "closed"}`}>
 				<div className='dashboard-content'>
 					<div className='dashboard-menu'>
+						<div
+							className={`dashboard-item ${
+								selectedItem === "item0" ? "selected" : ""
+							}`}
+							onClick={() => handleItemClick("item0")}>
+							<FontAwesomeIcon icon={faUser} className='icon' /> HOME
+						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item1" ? "selected" : ""
@@ -53,6 +61,7 @@ const Dashboard = () => {
 			<div className='dashboard-icon' onClick={toggleDashboard}>
 				<FontAwesomeIcon icon={faBars} />
 			</div>
+			{selectedItem === "item0" && <Home />}
 			{selectedItem === "item1" && <Keerthi />}
 			{selectedItem === "item2" && <Joseph />}
 			{selectedItem === "item3" && <Kishor />}

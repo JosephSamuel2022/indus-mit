@@ -60,7 +60,7 @@
 	}
 
 	.number-input {
-		width: 100%; /* Further adjust width for phones */
+		width: 90%; /* Further adjust width for phones */
 		padding: 5px; /* Further adjust padding for phones */
 		font-size: 12px; /* Further adjust font size for phones */
 	}

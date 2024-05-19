@@ -50,8 +50,8 @@
 /* Styling for screens smaller than 480px (e.g., phones) */
 @media (max-width: 480px) {
 	.symbol-container {
-		width: 70px; /* Further adjust width for phones */
-		height: 70px; /* Further adjust height for phones */
+		width: 80px; /* Further adjust width for phones */
+		height: 80px; /* Further adjust height for phones */
 	}
 
 	.number {
@@ -63,9 +63,5 @@
 		width: 90%; /* Further adjust width for phones */
 		padding: 5px; /* Further adjust padding for phones */
 		font-size: 12px; /* Further adjust font size for phones */
-	}
-	image {
-		width: 50px;
-		height: 50px;
 	}
 }

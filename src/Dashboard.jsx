@@ -8,6 +8,10 @@ import Keerthi from "./Keerthi";
 import Kishor from "./Kishor";
 import Joseph from "./Joseph";
 import Home from "./Home";
+import Trials from "./Trials";
+import Seals from "./Seals";
+import Grammar from "./Grammar";
+
 const Dashboard = () => {
 	const [isOpen, setIsOpen] = useState(true);
 	const [selectedItem, setSelectedItem] = useState("item0");
@@ -39,21 +43,45 @@ const Dashboard = () => {
 								selectedItem === "item1" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item1")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> KEERTHI KUMAR
+							<FontAwesomeIcon icon={faUser} className='icon' /> NETWORK
+							ANALYSIS
 						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item2" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item2")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> JOSEPH SAMUEL M
+							<FontAwesomeIcon icon={faUser} className='icon' /> FREQUENCY
+							ANALYSIS
 						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item3" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item3")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> KISHOR
+							<FontAwesomeIcon icon={faUser} className='icon' /> ASSOCIATE RULE
+							MINING
+						</div>
+						<div
+							className={`dashboard-item ${
+								selectedItem === "item4" ? "selected" : ""
+							}`}
+							onClick={() => handleItemClick("item4")}>
+							<FontAwesomeIcon icon={faUser} className='icon' /> LIST OF SYMBOLS
+						</div>
+						<div
+							className={`dashboard-item ${
+								selectedItem === "item5" ? "selected" : ""
+							}`}
+							onClick={() => handleItemClick("item5")}>
+							<FontAwesomeIcon icon={faUser} className='icon' /> SEALS
+						</div>
+						<div
+							className={`dashboard-item ${
+								selectedItem === "item6" ? "selected" : ""
+							}`}
+							onClick={() => handleItemClick("item6")}>
+							<FontAwesomeIcon icon={faUser} className='icon' /> GRAMMAR
 						</div>
 					</div>
 				</div>
@@ -65,6 +93,9 @@ const Dashboard = () => {
 			{selectedItem === "item1" && <Keerthi />}
 			{selectedItem === "item2" && <Joseph />}
 			{selectedItem === "item3" && <Kishor />}
+			{selectedItem === "item4" && <Trials />}
+			{selectedItem === "item5" && <Seals />}
+			{selectedItem === "item6" && <Grammar />}
 		</>
 	);
 };

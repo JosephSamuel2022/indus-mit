@@ -1,0 +1,30 @@
+/* Default styling for larger screens */
+.output-images {
+	display: flex;
+	flex-wrap: wrap; /* Allow wrapping to a new line */
+	gap: 20px; /* Space between ImageCardk components */
+	justify-content: center; /* Center the images */
+}
+
+/* Styling for screens smaller than 768px */
+@media (max-width: 768px) {
+	.output-images {
+		gap: 15px; /* Reduce gap for smaller screens */
+	}
+
+	.output-images .image-card {
+		width: calc(50% - 10px); /* Adjust width to fit two images per row */
+	}
+}
+
+/* Styling for screens smaller than 480px (e.g., phones) */
+@media (max-width: 480px) {
+	.output-images {
+		gap: 10px; /* Further reduce gap for phones */
+		padding: 10px; /* Add padding for better spacing on small screens */
+	}
+
+	.output-images .image-card {
+		width: calc(100% - 20px); /* Adjust width to fit one image per row */
+	}
+}

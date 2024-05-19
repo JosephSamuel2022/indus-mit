@@ -4,6 +4,8 @@ import SymbolRow from "./SymbolRow";
 import "./Joseph.css";
 import "./MovingImages";
 import MovingImages from "./MovingImages";
+import OutputImages from "./OutputImages";
+import RNgrams from "./RNgrams";
 
 const Joseph = () => {
 	return (
@@ -17,6 +19,8 @@ const Joseph = () => {
 				/>
 				<ImageCardk imageName='Bi.png' text='Top 10 Bigrams' isJoseph={true} />
 			</div>
+			<OutputImages />
+			<RNgrams />
 			<div className='running-note-container'>
 				<marquee className='running-note'>
 					You can input numbers ranging from 1 to 958 into certain fields, and

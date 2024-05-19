@@ -36,7 +36,7 @@ const MovingImages = () => {
 
 	return (
 		<div>
-			<h2 className='symbols-heading'>Symbols Similar to Tamil</h2>
+			<h2 className='symbols-heading'>Symbols Similar to Tamil Brahmi</h2>
 			<div className='moving-images-container'>
 				<button className='arrow-button left' onClick={goToPrevious}>
 					<FontAwesomeIcon icon={faArrowLeft} />

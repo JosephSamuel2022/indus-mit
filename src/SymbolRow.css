@@ -1,3 +1,4 @@
+/* Default styling for larger screens */
 body {
 	margin: 0;
 	padding: 0;
@@ -55,4 +56,30 @@ body {
 
 .next-sequence-button:active {
 	background-color: #3e8e41; /* Lighter Green */
+}
+
+/* Styling for screens smaller than 768px */
+@media (max-width: 768px) {
+	.symbol-row-container {
+		margin: 0 10px; /* Add margin to the sides for smaller screens */
+	}
+}
+
+/* Styling for screens smaller than 480px (e.g., phones) */
+@media (max-width: 480px) {
+	.symbol-row {
+		flex-wrap: wrap; /* Allow wrapping to a new line on smaller screens */
+		justify-content: center; /* Center symbol rows on smaller screens */
+	}
+
+	.fill-button {
+		font-size: 14px; /* Decrease font size for smaller screens */
+		padding: 8px 16px; /* Adjust padding for smaller screens */
+		margin-top: 15px; /* Adjust margin top for smaller screens */
+	}
+
+	.next-sequence-button {
+		font-size: 14px; /* Decrease font size for smaller screens */
+		padding: 8px 16px; /* Adjust padding for smaller screens */
+	}
 }

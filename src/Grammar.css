@@ -1,0 +1,41 @@
+/* Default styling for larger screens */
+.grammar {
+	display: flex;
+	flex-wrap: wrap; /* Allow wrapping to a new line */
+	gap: 20px; /* Space between ImageCard components */
+	justify-content: center; /* Center the images within the container */
+}
+
+.grammar-row {
+	display: flex;
+	justify-content: space-between; /* Adjust as needed */
+	gap: 20px; /* Space between ImageCard components */
+}
+
+/* Styling for screens smaller than 768px */
+@media (max-width: 768px) {
+	.grammar {
+		gap: 15px; /* Reduce gap for smaller screens */
+	}
+
+	.grammar-row {
+		flex-direction: column; /* Stack items vertically on smaller screens */
+		gap: 15px; /* Reduce gap for smaller screens */
+		justify-content: center; /* Center items within the container */
+	}
+}
+
+/* Styling for screens smaller than 480px (e.g., phones) */
+@media (max-width: 480px) {
+	.grammar {
+		gap: 10px; /* Further reduce gap for phones */
+		padding: 10px; /* Add padding for better spacing on small screens */
+	}
+
+	.grammar-row {
+		flex-direction: column; /* Stack items vertically on phones */
+		gap: 10px; /* Further reduce gap for phones */
+		justify-content: center; /* Center items within the container */
+		padding: 10px; /* Add padding for better spacing on small screens */
+	}
+}

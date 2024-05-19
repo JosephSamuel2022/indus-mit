@@ -113,7 +113,7 @@
 /* Styling for screens smaller than 480px (e.g., phones) */
 @media (max-width: 480px) {
 	.dashboard {
-		height: 60px; /* Adjust height as needed for phones */
+		height: 50px; /* Adjust height as needed for phones */
 	}
 
 	.dashboard-icon {
@@ -125,7 +125,6 @@
 	.dashboard-item {
 		padding: 5px;
 		font-size: 5px;
-		margin-right: 5px;
 	}
 
 	.dashboard-menu {

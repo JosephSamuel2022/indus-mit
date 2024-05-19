@@ -33,6 +33,6 @@
 		padding: 3px; /* Further adjust padding for phones */
 	}
 	.keerthi > * {
-		margin: 5px 0; /* Add margin to top and bottom */
+		margin-right: -5px; /* Add margin to top and bottom */
 	}
 }

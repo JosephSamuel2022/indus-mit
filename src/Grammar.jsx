@@ -88,8 +88,8 @@ const Grammar = () => {
 						<ImageCardk
 							imageName={item.imageName}
 							text={item.text}
-							height='300px'
-							width='300px'
+							height='250px'
+							width='250px'
 							isJoseph={true}
 						/>
 					</div>

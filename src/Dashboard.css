@@ -113,11 +113,11 @@
 /* Styling for screens smaller than 480px (e.g., phones) */
 @media (max-width: 480px) {
 	.dashboard {
-		height: 50px; /* Adjust height as needed for phones */
+		height: 45px; /* Adjust height as needed for phones */
 	}
 
 	.dashboard-icon {
-		top: 10px;
+		top: 20px;
 		right: 10px;
 		font-size: 10px;
 	}

@@ -46,6 +46,7 @@
 @media (max-width: 480px) {
 	.image-card {
 		width: calc(100% - 20px); /* Adjust width to fit phones */
+		margin: 10px; /* Adjust margin for spacing */
 		padding: 10px; /* Adjust padding for phones */
 	}
 }

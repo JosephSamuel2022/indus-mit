@@ -32,7 +32,6 @@ const SymbolComponent = ({ value, onChange }) => {
 					src={`./images/${number}.jpg`}
 					alt={`${number}.png`}
 					className='image'
-					style={{ maxWidth: "100%", maxHeight: "100%" }}
 				/>
 			)}
 		</div>

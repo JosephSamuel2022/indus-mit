@@ -36,52 +36,49 @@ const Dashboard = () => {
 								selectedItem === "item0" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item0")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> HOME
+							HOME
 						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item1" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item1")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> NETWORK
-							ANALYSIS
+							NETWORK ANALYSIS
 						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item2" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item2")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> FREQUENCY
-							ANALYSIS
+							FREQUENCY ANALYSIS
 						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item3" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item3")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> ASSOCIATE RULE
-							MINING
+							ASSOCIATE RULE MINING
 						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item4" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item4")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> LIST OF SYMBOLS
+							LIST OF SYMBOLS
 						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item5" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item5")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> SEALS
+							SEALS
 						</div>
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item6" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item6")}>
-							<FontAwesomeIcon icon={faUser} className='icon' /> GRAMMAR
+							GRAMMAR
 						</div>
 					</div>
 				</div>

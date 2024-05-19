@@ -50,8 +50,8 @@
 /* Styling for screens smaller than 480px (e.g., phones) */
 @media (max-width: 480px) {
 	.symbol-container {
-		width: 60px; /* Further adjust width for phones */
-		height: 60px; /* Further adjust height for phones */
+		width: 100px; /* Further adjust width for phones */
+		height: 100px; /* Further adjust height for phones */
 	}
 
 	.number {
@@ -60,7 +60,7 @@
 	}
 
 	.number-input {
-		width: 95%; /* Further adjust width for phones */
+		width: 100%; /* Further adjust width for phones */
 		padding: 5px; /* Further adjust padding for phones */
 		font-size: 12px; /* Further adjust font size for phones */
 	}

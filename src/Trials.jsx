@@ -9,28 +9,28 @@ const Trials = () => {
 			<div className='row'>
 				<ImageCardk
 					imageName='trail.jpg'
-					height='450px'
-					width='450px'
+					height='300px'
+					width='300px'
 					isJoseph='true'
 				/>
 				<ImageCardk
 					imageName='trail 2.jpg'
-					height='450px'
-					width='450px'
+					height='300px'
+					width='300px'
 					isJoseph='true'
 				/>
 			</div>
 			<div className='row'>
 				<ImageCardk
 					imageName='trail 3.jpg'
-					height='450px'
-					width='450px'
+					height='300px'
+					width='300px'
 					isJoseph='true'
 				/>
 				<ImageCardk
 					imageName='trail 4.jpg'
-					height='450px'
-					width='450px'
+					height='300px'
+					width='300px'
 					isJoseph='true'
 				/>
 			</div>

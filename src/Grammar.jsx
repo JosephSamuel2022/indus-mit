@@ -96,32 +96,32 @@ const Grammar = () => {
 				))}
 				<ImageCardk
 					imageName='g20.png'
-					height='400px'
-					width='400px'
+					height='300px'
+					width='300px'
 					isJoseph={true}
 				/>
 				<ImageCardk
 					imageName='g21.jpg'
-					height='400px'
-					width='400px'
+					height='300px'
+					width='300px'
 					isJoseph={true}
 				/>
 				<ImageCardk
 					imageName='g22.jpg'
-					height='400px'
-					width='400px'
+					height='300px'
+					width='300px'
 					isJoseph={true}
 				/>
 				<ImageCardk
 					imageName='g23.jpg'
-					height='400px'
-					width='400px'
+					height='300px'
+					width='300px'
 					isJoseph={true}
 				/>
 				<ImageCardk
 					imageName='g24.jpg'
 					height='500px'
-					width='400px'
+					width='300px'
 					isJoseph={true}
 				/>
 			</div>

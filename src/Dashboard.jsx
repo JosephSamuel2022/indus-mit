@@ -50,7 +50,7 @@ const Dashboard = () => {
 								selectedItem === "item3" ? "selected" : ""
 							}`}
 							onClick={() => handleItemClick("item3")}>
-							CLASSIFICATION OF SYMBOLS
+							SYMBOL CLASSIFICATION
 						</div>
 						<div
 							className={`dashboard-item ${

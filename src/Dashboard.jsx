@@ -40,10 +40,24 @@ const Dashboard = () => {
 						</div>
 						<div
 							className={`dashboard-item ${
-								selectedItem === "item1" ? "selected" : ""
+								selectedItem === "item4" ? "selected" : ""
 							}`}
-							onClick={() => handleItemClick("item1")}>
-							NETWORK ANALYSIS
+							onClick={() => handleItemClick("item4")}>
+							LIST OF SYMBOLS
+						</div>
+						<div
+							className={`dashboard-item ${
+								selectedItem === "item3" ? "selected" : ""
+							}`}
+							onClick={() => handleItemClick("item3")}>
+							CLASSIFICATION OF SYMBOLS
+						</div>
+						<div
+							className={`dashboard-item ${
+								selectedItem === "item5" ? "selected" : ""
+							}`}
+							onClick={() => handleItemClick("item5")}>
+							SEALS
 						</div>
 						<div
 							className={`dashboard-item ${
@@ -54,25 +68,12 @@ const Dashboard = () => {
 						</div>
 						<div
 							className={`dashboard-item ${
-								selectedItem === "item3" ? "selected" : ""
+								selectedItem === "item1" ? "selected" : ""
 							}`}
-							onClick={() => handleItemClick("item3")}>
-							ASSOCIATE RULE MINING
+							onClick={() => handleItemClick("item1")}>
+							NETWORK ANALYSIS
 						</div>
-						<div
-							className={`dashboard-item ${
-								selectedItem === "item4" ? "selected" : ""
-							}`}
-							onClick={() => handleItemClick("item4")}>
-							LIST OF SYMBOLS
-						</div>
-						<div
-							className={`dashboard-item ${
-								selectedItem === "item5" ? "selected" : ""
-							}`}
-							onClick={() => handleItemClick("item5")}>
-							SEALS
-						</div>
+
 						<div
 							className={`dashboard-item ${
 								selectedItem === "item6" ? "selected" : ""

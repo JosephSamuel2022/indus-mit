@@ -11,7 +11,7 @@ const ImageCardk = ({ imageName, text, height, width, isJoseph = false }) => {
 	};
 	const imagePath = isJoseph
 		? `/images/Joseph/${imageName}`
-		: `/images/Kishor/Associate${imageName}`;
+		: `/images/Kishor/${imageName}`;
 	return (
 		<div className='image-card' style={cardStyle}>
 			<div className='image-container'>

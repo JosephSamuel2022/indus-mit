@@ -97,31 +97,31 @@ const Grammar = () => {
 				<ImageCardk
 					imageName='g20.png'
 					height='300px'
-					width='300px'
+					width='280px'
 					isJoseph={true}
 				/>
 				<ImageCardk
 					imageName='g21.jpg'
 					height='300px'
-					width='300px'
+					width='280px'
 					isJoseph={true}
 				/>
 				<ImageCardk
 					imageName='g22.jpg'
 					height='300px'
-					width='300px'
+					width='280px'
 					isJoseph={true}
 				/>
 				<ImageCardk
 					imageName='g23.jpg'
 					height='300px'
-					width='300px'
+					width='280px'
 					isJoseph={true}
 				/>
 				<ImageCardk
 					imageName='g24.jpg'
 					height='500px'
-					width='300px'
+					width='280px'
 					isJoseph={true}
 				/>
 			</div>

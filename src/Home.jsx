@@ -1,4 +1,5 @@
 import React from "react";
+import ImageCardk from "./ImageCardk";
 import "./Home.css"; // Import your CSS file for styling
 
 const Home = () => {
@@ -18,6 +19,14 @@ const Home = () => {
 					prominence, the civilization met its demise in the early 2nd
 					millennium BCE.
 				</p>
+				<div className='kishor'>
+					<ImageCardk
+						imageName='indus.jpg'
+						height='350px'
+						width='280px'
+						isJoseph={true}
+					/>
+				</div>
 				<p>
 					Historical records of the Indus civilization were nonexistent until
 					archaeological excavations in the late 19th and early 20th centuries
@@ -30,6 +39,7 @@ const Home = () => {
 					indicative of a need for communication and coordination within the
 					society.
 				</p>
+
 				<p>
 					Despite numerous attempts, the decipherment of the Indus script has
 					remained elusive. Unlike the Rosetta Stone, which played a pivotal

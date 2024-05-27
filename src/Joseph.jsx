@@ -12,13 +12,21 @@ const Joseph = () => {
 	return (
 		<div className='joseph-container'>
 			<h2 className='heading'>N Gram Analysis</h2>
-			<div className='image-card-container'>
-				<ImageCardk
-					imageName='Uni.png'
+			<div className='kishor'>
+				<ImageCardf
+					imageName='/Joseph/Uni.png'
 					text='Top 10 Unigrams'
 					isJoseph={true}
+					height='450px'
+					width='310px'
 				/>
-				<ImageCardk imageName='Bi.png' text='Top 10 Bigrams' isJoseph={true} />
+				<ImageCardf
+					imageName='/Joseph/Bi.png'
+					text='Top 10 Bigrams'
+					isJoseph={true}
+					height='450px'
+					width='310px'
+				/>
 			</div>
 			<div className='kishor'>
 				<ImageCardf

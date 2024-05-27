@@ -10,7 +10,7 @@ import ImageCardf from "./ImageCardf";
 
 const Joseph = () => {
 	return (
-		<div className='joseph-container'>
+		<div>
 			<h2 className='heading'>N Gram Analysis</h2>
 			<div className='kishor'>
 				<ImageCardf

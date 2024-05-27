@@ -72,7 +72,7 @@ const imagesWithText = [
 
 const Keerthi = () => {
 	return (
-		<div>
+		<div className='keerthi'>
 			<h2 className='heading'>Network Analysis</h2>
 			<div className='kishor'>
 				{imagesWithText.map((item, index) =>

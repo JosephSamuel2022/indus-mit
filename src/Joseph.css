@@ -43,7 +43,6 @@
 /* Styling for screens smaller than 480px (e.g., phones) */
 @media (max-width: 480px) {
 	.joseph-container {
-		padding: 10px;
 		margin-top: 10px;
 	}
 

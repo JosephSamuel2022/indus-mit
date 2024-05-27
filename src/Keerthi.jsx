@@ -82,7 +82,7 @@ const Keerthi = () => {
 							imageName={item.imageName}
 							text={item.text}
 							height='350px'
-							width='330px'
+							width='320px'
 						/>
 					) : (
 						<ImageCard

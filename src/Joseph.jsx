@@ -25,31 +25,31 @@ const Joseph = () => {
 					imageName='/Keerthi/nodexl17.png'
 					text=' Symbols frequently used in last position'
 					height='450px'
-					width='330px'
+					width='320px'
 				/>
 				<ImageCardf
 					imageName='/Keerthi/nodexl18.png'
 					text=' Symbols frequently used in first position'
 					height='450px'
-					width='330px'
+					width='320px'
 				/>
 				<ImageCardf
 					imageName='/Keerthi/nodexl19.png'
 					text=' Some Symbols never used in first position'
 					height='450px'
-					width='330px'
+					width='320px'
 				/>
 				<ImageCardf
 					imageName='/Keerthi/nodexl20.png'
 					text='Symbols used in 10 or more unique positions'
 					height='450px'
-					width='330px'
+					width='320px'
 				/>
 				<ImageCardf
 					imageName='/Keerthi/nodexl21.png'
 					text='Some of max frequencies of combinations of positions'
 					height='500px'
-					width='330px'
+					width='320px'
 				/>
 			</div>
 			<OutputImages />

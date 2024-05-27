@@ -11,7 +11,7 @@ import ImageCardf from "./ImageCardf";
 const Joseph = () => {
 	return (
 		<div>
-			<h2 className='heading'>N Gram Analysis</h2>
+			<h2 className='headingt'>N Gram Analysis</h2>
 			<div className='kishor'>
 				<ImageCardf
 					imageName='/Joseph/Uni.png'

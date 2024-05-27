@@ -94,12 +94,7 @@ const Grammar = () => {
 						/>
 					</div>
 				))}
-				<ImageCardk
-					imageName='g20.png'
-					height='300px'
-					width='280px'
-					isJoseph={true}
-				/>
+
 				<ImageCardk
 					imageName='g21.jpg'
 					height='300px'
@@ -122,6 +117,12 @@ const Grammar = () => {
 					imageName='g24.jpg'
 					height='500px'
 					width='280px'
+					isJoseph={true}
+				/>
+				<ImageCardk
+					imageName='g20.png'
+					height='500px'
+					width='310px'
 					isJoseph={true}
 				/>
 			</div>

@@ -1,7 +1,14 @@
 import React from "react";
 import "./ImageCard.css"; // Import the external CSS file
 
-const ImageCard = ({ imageName, text }) => {
+const ImageCard = ({ height, width, imageName, text }) => {
+	const imageStyle = {
+		height: height || "auto", // Default to "auto" if height prop is not provided
+		width: width || "", // Default to "auto" if width prop is not provided
+	};
+	const cardStyle = {
+		width: width || "", // Default to "auto" if width prop is not provided
+	};
 	// Regular expression to find all numbers in the text
 	const numberRegex = /\b0*(\d+)\b/g;
 
@@ -24,9 +31,13 @@ const ImageCard = ({ imageName, text }) => {
 	});
 
 	return (
-		<div className='image-card'>
+		<div className='image-card' style={cardStyle}>
 			<div className='image-container'>
-				<img src={`/images/Keerthi/nodexl${imageName}`} alt='Image' />
+				<img
+					src={`/images/Keerthi/nodexl${imageName}`}
+					alt='Image'
+					style={imageStyle}
+				/>
 			</div>
 			<div className='text-container'>
 				<p>{text}</p>

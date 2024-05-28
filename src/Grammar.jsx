@@ -82,9 +82,9 @@ const Grammar = () => {
 	return (
 		<div>
 			<h2 className='headingt'>Grammar Rules</h2>
-			<div className='grammar'>
+			<div className='kishor'>
 				{imagesWithText.map((item, index) => (
-					<div key={index} className='grammar-row'>
+					<div key={index}>
 						<ImageCardk
 							imageName={item.imageName}
 							text={item.text}

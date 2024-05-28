@@ -7,12 +7,14 @@ import SymbolRow from "./SymbolRow";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Dashboard from "./Dashboard";
+import Footer from "./Footer";
 function App() {
 	return (
 		<>
 			<Routes>
 				<Route path='/' element={<Dashboard />}></Route>
 			</Routes>
+			<Footer />
 			<ToastContainer />
 		</>
 	);

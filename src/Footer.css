@@ -9,3 +9,11 @@
 	bottom: 0;
 	left: 0;
 }
+
+@media (max-width: 480px) {
+	.footer {
+		width: 80%; /* Make the footer full-width on small screens */
+		padding: 10px; /* Reduce padding for smaller screens */
+		font-size: 14px; /* Adjust font size for better readability on small screens */
+	}
+}
